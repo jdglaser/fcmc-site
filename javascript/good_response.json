@@ -1,0 +1,23 @@
+{
+    "description": "\u00a7fReally good safe clean Christian gaming server",
+    "favicon": null,
+    "latency": 251.756,
+    "players": {
+        "max": 35,
+        "online": 2,
+        "sample": [
+            {
+                "id": "976a36a8-71a2-4854-8dbc-1ddd433617fc",
+                "name": "TwiningPlane031"
+            },
+            {
+                "id": "a0bd084f-75a1-44fa-a5e2-27826bd77887",
+                "name": "Cheetahaha"
+            }
+        ]
+    },
+    "version": {
+        "name": "Spigot 1.18.1",
+        "protocol": 757
+    }
+}

@@ -1,0 +1,19 @@
+.server-status-banner {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+
+.server-icon {
+  border-radius: 10px;
+}
+
+.icon-and-players {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
