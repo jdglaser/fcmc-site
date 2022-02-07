@@ -1,0 +1,11 @@
+site_name: FCMC
+extra_javascript:
+  - javascript/script.js
+extra_css:
+  - css/styles.css
+theme:
+  name: material
+  palette:
+    primary: blue grey
+  logo: img/sand.png
+  favicon: img/sand.png
