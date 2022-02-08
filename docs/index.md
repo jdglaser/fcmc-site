@@ -1,6 +1,6 @@
 # Home
 
-Welcome to the official site for the **Friendly Christain Minecraft Server**
+Welcome to the official site for the **Friendly Christian Minecraft Server**
 
 ## Server Status
 
@@ -12,3 +12,5 @@ Welcome to the official site for the **Friendly Christain Minecraft Server**
     <div class="players-online"></div>
   </div>
 </div>
+
+

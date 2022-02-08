@@ -9,3 +9,8 @@ theme:
     primary: blue grey
   logo: img/sand.png
   favicon: img/sand.png
+nav:
+  - Home: index.md
+  - World Map: http://108.62.104.82:57557/
+  - Getting Started: getting_started.md
+  - Plugins: plugins.md
