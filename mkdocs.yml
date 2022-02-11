@@ -9,8 +9,19 @@ theme:
     primary: blue grey
   logo: img/sand.png
   favicon: img/sand.png
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 nav:
   - Home: index.md
-  - World Map: http://108.62.104.82:57557/
+  - World Map: http://108.62.104.82:38305/?worldname=new-world-1.18&mapname=flat&zoom=0&x=0&y=64&z=0
   - Getting Started: getting_started.md
   - Plugins: plugins.md
+  - Lands:
+    - Claiming Land: ./lands/claiming_land.md
+    - Inviting Others to your Land: ./lands/inviting_friends.md
+    - Declaring War: ./lands/declaring_war.md
+    - Leveling up your Civilization: ./lands/leveling_up_your_civilization.md
+  - Custom Recipes: custom_recipes.md
+  - Waypoints: waypoints.md

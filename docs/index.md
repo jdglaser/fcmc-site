@@ -1,4 +1,4 @@
-# Home
+# :house_with_garden: Home
 
 Welcome to the official site for the **Friendly Christian Minecraft Server**
 

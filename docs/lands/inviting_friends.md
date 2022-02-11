@@ -1,0 +1,3 @@
+# :handshake: Inviting Other Players to your Land
+
+Coming soon...
