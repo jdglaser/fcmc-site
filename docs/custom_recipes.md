@@ -1,11 +1,5 @@
 # :blue_book: Custom Recipes
 
-- [String](#string)
-- [Lead](#lead)
-- [Saddle](#saddle)
-- [Horse Armor](#horse-armor)
-- [Gunpowder](#gunpowder)
-
 ## String
 
 ![string](img/string.png){ width="50%" height=50% }
