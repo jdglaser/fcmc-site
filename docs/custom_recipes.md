@@ -1,15 +1,14 @@
 # :blue_book: Custom Recipes
 
-- [:blue_book: Custom Recipes](#blue_book-custom-recipes)
-  - [String](#string)
-  - [Lead](#lead)
-  - [Saddle](#saddle)
-  - [Horse Armor](#horse-armor)
-  - [Gunpowder](#gunpowder)
+- [String](#string)
+- [Lead](#lead)
+- [Saddle](#saddle)
+- [Horse Armor](#horse-armor)
+- [Gunpowder](#gunpowder)
 
 ## String
 
-<img src="img/string.png" width=50% height=50%>
+![string](img/string.png){ width="50%" height=50% }
 
 |       |        |       |
 | ----- | ------ | ----- |
@@ -19,7 +18,7 @@
 
 ## Lead
 
-<img src="img/lead.png" width=50% height=50%>
+![lead](img/lead.png){ width="50%" height=50% }
 
 |          |          |          |
 | -------- | -------- | -------- |
@@ -29,7 +28,7 @@
 
 ## Saddle
 
-<img src="img/saddle.png" width=50% height=50%>
+![saddle](img/saddle.png){ width="50%" height=50% }
 
 |           |           |           |
 | --------- | --------- | --------- |
@@ -39,10 +38,10 @@
 
 ## Horse Armor
 
-<img src="img/leather_horse_armor.png" width=50% height=50%>
-<img src="img/iron_horse_armor.png" width=50% height=50%>
-<img src="img/gold_horse_armor.png" width=50% height=50%>
-<img src="img/diamond_horse_armor.png" width=50% height=50%>
+![leather_horse_armor](img/leather_horse_armor.png){ width="50%" height=50% }
+![iron_horse_armor](img/iron_horse_armor.png){ width="50%" height=50% }
+![gold_horse_armor](img/gold_horse_armor.png){ width="50%" height=50% }
+![diamond_horse_armor](img/diamond_horse_armor.png){ width="50%" height=50% }
 
 |                                   |          |                                   |
 | --------------------------------- | -------- | --------------------------------- |
@@ -52,9 +51,9 @@
 
 ## Gunpowder
 
-First you will need to craft `SULFUR` (note obtain charcoal by cooking `LOGS`)
+First you will need to craft `SULFUR` (note obtain `CHARCOAL` by cooking `LOGS`)
 
-<img src="img/sulfur.png" width=50% height=50%>
+![sulfur](img/sulfur.png){ width="50%" height=50% }
 
 |            |            |            |
 | ---------- | ---------- | ---------- |
@@ -64,7 +63,7 @@ First you will need to craft `SULFUR` (note obtain charcoal by cooking `LOGS`)
 
 Then heat the sulfur in a blast furnace to produce gunpowder
 
-<img src="img/gunpowder.png" width=50% height=50%>
+![gunpowder](img/gunpowder.png){ width="50%" height=50% }
 
 | BLAST FURNACE |
 | ------------- |

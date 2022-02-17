@@ -13,6 +13,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
 nav:
   - Home: index.md
   - World Map: http://108.62.104.82:38305/?worldname=new-world-1.18&mapname=flat&zoom=0&x=0&y=64&z=0
