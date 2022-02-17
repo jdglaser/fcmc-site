@@ -1,6 +1,6 @@
 # :house_with_garden: Home
 
-Welcome to the official site for the **Friendly Christian Minecraft Server**
+Welcome to the official site for the **FCMC Server**!
 
 ## Server Status
 
