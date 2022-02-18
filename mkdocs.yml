@@ -1,6 +1,9 @@
 site_name: FCMC
 extra_javascript:
   - javascript/script.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - css/styles.css
 theme:
@@ -21,9 +24,9 @@ nav:
   - Getting Started: getting_started.md
   - Plugins: plugins.md
   - Lands:
-    - Claiming Land: ./lands/claiming_land.md
+    - Claiming & Managing Land: ./lands/claiming_land.md
     - Inviting Others to your Land: ./lands/inviting_friends.md
-    - Declaring War: ./lands/declaring_war.md
     - Leveling up your Civilization: ./lands/leveling_up_your_civilization.md
+    - Declaring War: ./lands/declaring_war.md
   - Custom Recipes: custom_recipes.md
   - Waypoints: waypoints.md
