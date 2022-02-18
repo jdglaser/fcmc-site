@@ -45,7 +45,7 @@
 
 ## Gunpowder
 
-First you will need to craft `SULFUR` (note obtain `CHARCOAL` by cooking `LOGS`)
+First you will need to craft `SULFUR` (note obtain `CHARCOAL` by cooking `LOGS` in a furnace)
 
 ![sulfur](img/sulfur.png){ width="75%" height=75% }
 
@@ -53,7 +53,7 @@ First you will need to craft `SULFUR` (note obtain `CHARCOAL` by cooking `LOGS`)
 | ---------- | ---------- | ---------- |
 | `SAND`     | `CHARCOAL` | `SAND`     |
 | `CHARCOAL` | `SAND`     | `CHARCOAL` |
-| `LEATHER`  | `AIR`      | `LEATHER`  |
+| `GRAVEL`   | `GRAVEL`   | `GRAVEL`   |
 
 Then heat the sulfur in a blast furnace to produce gunpowder
 
