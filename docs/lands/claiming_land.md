@@ -34,12 +34,12 @@ Most of the menu options should be fairly self-explanatory, however, see below f
 
 ![](../img/lands_menu.png){ width=50% height=50% }
 
-1. `Trusted Players` - Get a list of trusted players of your land (see more in [Inviting Other Players to your Land](inviting_friends.md))
-2. `Invites` - View the invites you've sent out to other players (see more in [Inviting Other Players to your Land](inviting_friends.md))
-3. `Inbox` - Messages and notifications about your land
-4. `Statistics` - Show land level and member + claim limits (see more in [Leveling up your Civilization](leveling_up_your_civilization.md))
-5. `Roles` - Show roles for your land (see more in [Inviting Other Players to your Land](inviting_friends.md))
-6. `Miscellaneous Settings` - Change land name and change messagep layers see when entering your land
+- `Trusted Players` - Get a list of trusted players of your land (see more in [Inviting Other Players to your Land](inviting_friends.md))
+- `Invites` - View the invites you've sent out to other players (see more in [Inviting Other Players to your Land](inviting_friends.md))
+- `Inbox` - Messages and notifications about your land
+- `Statistics` - Show land level and member + claim limits (see more in [Leveling up your Civilization](leveling_up_your_civilization.md))
+- `Roles` - Show roles for your land (see more in [Inviting Other Players to your Land](inviting_friends.md))
+- `Miscellaneous Settings` - Change land name and change messagep layers see when entering your land
 
 ## Claiming Additional Chunks
 
@@ -116,8 +116,10 @@ and hit `ENTER`. The `DIAMONDS` spent on all claim chunks will be returned to yo
 Additionally, ad the owner of the land, you can stand within your land, and type
 
 ```
-/lands leave
+/lands leave <name_of_your_land>
 ```
+
+*Replace `<name_of_your_land` with the name of your land*
 
 This will give you the option to either leave the land and transfer ownership to another member, or delete it.
 

@@ -41,7 +41,7 @@
 | --------------------------------- | -------- | --------------------------------- |
 | `AIR`                             | `AIR`    | `LEATHER`/`IRON`/`GOLD`/`DIAMOND` |
 | `LEATHER`/`IRON`/`GOLD`/`DIAMOND` | `Saddle` | `LEATHER`/`IRON`/`GOLD`/`DIAMOND` |
-| `LEATHER`/`IRON`/`GOLD`/`DIAMOND` | AIR      | `LEATHER`/`IRON`/`GOLD`/`DIAMOND` |
+| `LEATHER`/`IRON`/`GOLD`/`DIAMOND` | `AIR`    | `LEATHER`/`IRON`/`GOLD`/`DIAMOND` |
 
 ## Gunpowder
 
