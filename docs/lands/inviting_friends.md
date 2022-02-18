@@ -24,17 +24,17 @@ Before you can join another player's land, or they can join your land, the playe
 
 If a player sends you an invite to be a trusted member of their land, you should see a message pop up like the one below.
 
-![](../img/accept_invite.png){ width=50% height=50% }
+![](../img/accept_invite.png){ width=75% height=75% }
 
 Press `T` to open the chat menu and click on either `Accept` or `Deny`. Clicking `Accept` will make you a trusted member of this land and initially put you in the `Member` role for that land.
 
-![](../img/accepted_invite.png){ width=50% height=50% }
+![](../img/accepted_invite.png){ width=75% height=75% }
 
 ## Viewing Trusted Members
 
 In the `/lands` menu, click on `Trusted Players` and you should see the member you trusted listed.
 
-![](../img/member.png){ width=50% height=50% }
+![](../img/member.png){ width=75% height=75% }
 
 By default, new trusted members will be added to the role `Member` (see more in [Managing Roles and Priveleges in your Land](#managing-roles-and-priveleges-in-your-land)).
 
@@ -74,7 +74,7 @@ There are default roles that exist when you create a land.  These roles cannot b
 
 Open up the `/lands` menu, and go to the `Roles` section. Here you can create new roles and manage permissions for roles.
 
-![](../img/roles.png){ width=50% height=50% }
+![](../img/roles.png){ width=75% height=75% }
 
 The position of the role from left to right is the direction players will be promoted/demoted. Press `SHIFT + RIGHT CLICK` and `SHIFT + LEFT CLICK` to reorder roles
 
@@ -86,7 +86,7 @@ To add a member to a role go to the [Trusted Players](#viewing-trusted-members) 
 
 From the `Roles` menu, you can click on a role icon to go to the edit menu for the role. From here you can select the following different menu options:
 
-![](../img/edit-role.png){ width=50% height=50% }
+![](../img/edit-role.png){ width=75% height=75% }
 
 - **Role Members**: View all members that belong to this role
 - **Icon**: Change the icon of the role to the item you are holding in your hand
@@ -94,7 +94,7 @@ From the `Roles` menu, you can click on a role icon to go to the edit menu for t
 - **Action Flags**: Manage `Action Flags` for the role (see [Granting Priveleges to a Role](#granting-priveleges-to-a-role))
 - **Management Flags** Manage `Management Flags` for the role (see [Granting Priveleges to a Role](#granting-priveleges-to-a-role))
 
-#### Granting Priveleges to a Role
+### Granting Priveleges to a Role
 
 Go to the [edit menu](#editing-a-role) for the role. Click on either `Action Flags` or `Management Flags` to manage action and management flags.
 
@@ -104,7 +104,7 @@ Go to the [edit menu](#editing-a-role) for the role. Click on either `Action Fla
 
 To enable/disable the flag for a role, simply click on the icon for it. The current status of the flag (`Enabled` or `Disabled`) is shown in the tooltip.
 
-![](../img/open-doors.png){ width=50% height=50% }
+![](../img/open-doors.png){ width=75% height=75% }
 
 ## Getting Unstuck
 

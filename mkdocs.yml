@@ -25,8 +25,8 @@ nav:
   - Plugins: plugins.md
   - Lands:
     - Claiming & Managing Land: ./lands/claiming_land.md
-    - Inviting Others to your Land: ./lands/inviting_friends.md
-    - Leveling up your Civilization: ./lands/leveling_up_your_civilization.md
+    - Inviting Others to Your Land: ./lands/inviting_friends.md
+    - Leveling up Your Civilization: ./lands/leveling_up_your_civilization.md
     - Declaring War: ./lands/declaring_war.md
   - Custom Recipes: custom_recipes.md
   - Waypoints: waypoints.md

@@ -19,6 +19,6 @@ The levels, requirements and rewards can be seen below:
 
 To view your land's current level, and remaining requirements to level up, open the `/lands` menu. Click on the `Statistics` menu, and then `Levels` menu. You should be able to highlight over the requirements and the next level to view more information about them.
 
-![](../img/level-requirements.png){ width=50% height=50% }
+![](../img/level-requirements.png){ width=75% height=75% }
 
-![](../img/next-level.png){ width=50% height=50% }
+![](../img/next-level.png){ width=75% height=75% }

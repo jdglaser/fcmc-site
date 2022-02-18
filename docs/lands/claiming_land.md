@@ -14,9 +14,9 @@ To claim a new plot of land, stand in the chunk (16x16 minecraft blocks) that yo
 
 and hit `ENTER`. The 16x16 block + a 1 chunk radius around that chunk will be initially claimed for free by your land. You should see a green border pop up that highlights the border of your land.
 
-![land_claim_cmd](../img/land_claim_cmd.png){ width=50% height=50% }
+![land_claim_cmd](../img/land_claim_cmd.png){ width=75% height=75% }
 
-![border_radius](../img/border_radius.png){ width=50% height=50% }
+![border_radius](../img/border_radius.png){ width=75% height=75% }
 
 To make the highlighted border for your land reappear at any time, type `/lands view` and hit `ENTER`.
 
@@ -34,7 +34,7 @@ and hit `ENTER`. You will see a user interface with various options.
 
 Most of the menu options should be fairly self-explanatory, however, see below for a brief description of each.
 
-![](../img/lands_menu.png){ width=50% height=50% }
+![](../img/lands_menu.png){ width=75% height=75% }
 
 - `Trusted Players` - Get a list of trusted players of your land (see more in [Inviting Other Players to Your Land](inviting_friends.md#trusting-members-in-your-land))
 - `Invites` - View the invites you've sent out to other players (see more in [Inviting Other Players to Your Land](inviting_friends.md))
@@ -59,7 +59,7 @@ Where `n` is the number of chunks your land currently has (we subtract 9 for the
 
 *Tip: To view how many chunks your land currently has, highlight over the `Statistics` icon in the `/lands` menu. You should be able to see the number of chunks you currently have claimed for your land.*
 
-![](../img/land_stats.png){ width=50% height=50%}
+![](../img/land_stats.png){ width=75% height=75%}
 
 ### Claiming
 
