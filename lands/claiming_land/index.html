@@ -359,7 +359,14 @@
       
         <li class="md-nav__item">
   <a href="#deleting-your-land" class="md-nav__link">
-    Deleting your Land
+    Deleting Your Land
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leave-your-land" class="md-nav__link">
+    Leave Your Land
   </a>
   
 </li>
@@ -534,7 +541,14 @@
       
         <li class="md-nav__item">
   <a href="#deleting-your-land" class="md-nav__link">
-    Deleting your Land
+    Deleting Your Land
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#leave-your-land" class="md-nav__link">
+    Leave Your Land
   </a>
   
 </li>
@@ -554,10 +568,11 @@
 
 <h1 id="claiming-managing-land"><img alt="🇺🇸" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f1fa-1f1f8.svg" title=":flag_us:" /> Claiming &amp; Managing Land</h1>
 <h2 id="creating-a-land">Creating a Land</h2>
-<p>You can claim land in the Minecraft world, and control members of the land and what those members are allowed to do. Additionally, players who are not members of your land, are unable to break blocks, build, or interact with items. Additionally, players inside your land will not be able to attack you or each other.</p>
+<p>On this server, you can claim land within the Minecraft world. Claiming land will allow you to control members of the land and what those members are allowed to do. Additionally, players who are not members of your land, are unable to break blocks, build, or interact with items. </p>
+<p>Players inside your land will not be able to attack you or each other. <em>Note: Attacking players is never allowed in claimed land (<a href="../declaring_war/">war feature coming soon</a>)</em>.</p>
 <p>To claim a new plot of land, stand in the chunk (16x16 minecraft blocks) that you want to claim, open up the chat, and type</p>
 <p><code>/lands create &lt;name_of_land&gt;</code></p>
-<p><em>Replace <code>&lt;name_of_your_land</code> with the name you want your land to be (no spaces)</em></p>
+<p><em>Replace <code>&lt;name_of_your_land&gt;</code> with the name you want your land to be (no spaces)</em></p>
 <p>and hit <code>ENTER</code>. The 16x16 block + a 1 chunk radius around that chunk will be initially claimed for free by your land. You should see a green border pop up that highlights the border of your land.</p>
 <p><img alt="land_claim_cmd" height="50%" src="../../img/land_claim_cmd.png" width="50%" /></p>
 <p><img alt="border_radius" height="50%" src="../../img/border_radius.png" width="50%" /></p>
@@ -571,16 +586,16 @@
 <p>Most of the menu options should be fairly self-explanatory, however, see below for a brief description of each.</p>
 <p><img alt="" height="50%" src="../../img/lands_menu.png" width="50%" /></p>
 <ul>
-<li><code>Trusted Players</code> - Get a list of trusted players of your land (see more in <a href="../inviting_friends/">Inviting Other Players to your Land</a>)</li>
-<li><code>Invites</code> - View the invites you've sent out to other players (see more in <a href="../inviting_friends/">Inviting Other Players to your Land</a>)</li>
+<li><code>Trusted Players</code> - Get a list of trusted players of your land (see more in <a href="../inviting_friends/#trusting-members-in-your-land">Inviting Other Players to Your Land</a>)</li>
+<li><code>Invites</code> - View the invites you've sent out to other players (see more in <a href="../inviting_friends/">Inviting Other Players to Your Land</a>)</li>
 <li><code>Inbox</code> - Messages and notifications about your land</li>
-<li><code>Statistics</code> - Show land level and member + claim limits (see more in <a href="../leveling_up_your_civilization/">Leveling up your Civilization</a>)</li>
-<li><code>Roles</code> - Show roles for your land (see more in <a href="../inviting_friends/">Inviting Other Players to your Land</a>)</li>
+<li><code>Statistics</code> - Show land level and claim limits (see more in <a href="../leveling_up_your_civilization/">Leveling up Your Civilization</a>)</li>
+<li><code>Roles</code> - Show roles for your land (see more in <a href="../inviting_friends/#managing-roles-and-priveleges-in-your-land">Inviting Other Players to Your Land</a>)</li>
 <li><code>Miscellaneous Settings</code> - Change land name and change messagep layers see when entering your land</li>
 </ul>
 <h2 id="claiming-additional-chunks">Claiming Additional Chunks</h2>
 <h3 id="cost">Cost</h3>
-<p>All additional chunks after the initial claim, will cost <code>DIAMONDS</code>.</p>
+<p>All additional chunks after the initial claim, will cost <code>DIAMONDS</code>. The cost in <code>DIAMONDS</code> will be taken from your inventory when you claim a chunk.</p>
 <p>The cost for the first new chunk of land will be <code>4 DIAMONDS</code>.  Every additional claim after that will cost an additional <code>2 DIAMONDS</code>. So for example, the third chunk you claim after creating your land will cost <code>8 DIAMONDS</code>. You can calculate this by taking:</p>
 <p>$$
 \text{cost in diamonds of next chunk} = 4 + (n - 9)*2
@@ -607,18 +622,19 @@ $$</p>
 </code></pre>
 <p>and hit <code>ENTER</code>. The land will be unclaimed and the <code>DIAMONDS</code> spent on it will go back to your inventory.</p>
 <h3 id="claim-limits">Claim Limits</h3>
-<p>Each player has a limit of <code>50</code> chunks they can <strong><em>either</em></strong> claim for their own land <strong><em>or</em></strong> contribute to another players land that they are a trusted member of. A player <strong>cannot own their own land and belong to another player's land</strong> (see more in <a href="../inviting_friends/">Inviting Other Players to your Land</a>).</p>
-<p>Each trusted player in your land will increase your budget by <code>50</code>. You can edit the roles for trusted members to allow them to claim chunks for your land (see more in <a href="../inviting_friends/">Inviting Other Players to your Land</a>).</p>
-<h2 id="deleting-your-land">Deleting your Land</h2>
+<p>Each player has a limit of <code>50</code> chunks they can <strong><em>either</em></strong> claim for their own land <strong><em>or</em></strong> contribute to another player's land that they are a trusted member of. A player <strong>cannot own their own land and belong to another player's land</strong> (see more in <a href="../inviting_friends/">Inviting Other Players to your Land</a>).</p>
+<p>Each trusted player in your land will increase your budget by <code>50</code>. You can edit the roles for trusted members to allow them to claim chunks for your land (see more in <a href="../inviting_friends/#managing-roles-and-priveleges-in-your-land">Inviting Other Players to your Land</a>).</p>
+<h2 id="deleting-your-land">Deleting Your Land</h2>
 <p>To delete your land completely, type</p>
 <pre><code>/lands delete &lt;name_of_your_land&gt;
 </code></pre>
-<p><em>Replace <code>&lt;name_of_your_land</code> with the name of your land</em></p>
-<p>and hit <code>ENTER</code>. The <code>DIAMONDS</code> spent on all claim chunks will be returned to your inventory.</p>
-<p>Additionally, ad the owner of the land, you can stand within your land, and type</p>
+<p><em>Replace <code>&lt;name_of_your_land&gt;</code> with the name of your land</em></p>
+<p>and hit <code>ENTER</code>. The <code>DIAMONDS</code> spent on all claimed chunks will be returned to your inventory.</p>
+<h2 id="leave-your-land">Leave Your Land</h2>
+<p>You can leave your own land by typing</p>
 <pre><code>/lands leave &lt;name_of_your_land&gt;
 </code></pre>
-<p><em>Replace <code>&lt;name_of_your_land</code> with the name of your land</em></p>
+<p><em>Replace <code>&lt;name_of_your_land&gt;</code> with the name of your land</em></p>
 <p>This will give you the option to either leave the land and transfer ownership to another member, or delete it.</p>
 <p><em>Note: After pressing <code>ENTER</code> on the above command, open chat again with <code>T</code> to click on either option.</em></p>
 <p><img alt="" height="75%" src="../../img/leaving-owned-land.png" width="75%" /></p>

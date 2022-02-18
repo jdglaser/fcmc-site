@@ -630,7 +630,7 @@
 </code></pre>
 <p><em>Replace <code>&lt;player_name&gt;</code> with the name of the player you want to trust.</em></p>
 <p>and hit <code>ENTER</code>. That player will now be invited to be a trusted member of your land.</p>
-<p>Players are only allowed to either belong to one land <strong><em>or</em></strong> own their own their own land. Players <strong><em>cannot</em></strong> belong to two different lands and they <strong><em>cannot</em></strong> own a land <strong><em>and</em></strong> belong to another land.  Before you can join another player's land, or they can join your land, the player joining must <a href="#leaving-a-land-you-are-trusted-in">leave any land they might currently belong to</a>, including a land they might own.</p>
+<p>Before you can join another player's land, or they can join your land, the player joining must <a href="#leaving-a-land-you-are-trusted-in">leave any land they might currently belong to</a>. If they own a land, they must <a href="../claiming_land/#leave-your-land">leave it and transfer ownerhip to a different player</a>, or <a href="../claiming_land/#deleting-your-land">delete the land</a>.</p>
 <h2 id="accepting-an-invite-to-a-land">Accepting an Invite to a Land</h2>
 <p>If a player sends you an invite to be a trusted member of their land, you should see a message pop up like the one below.</p>
 <p><img alt="" height="50%" src="../../img/accept_invite.png" width="50%" /></p>
@@ -650,21 +650,21 @@
 <p>To leave a land you are currently trusted in, simply type</p>
 <pre><code>/lands leave &lt;name_of_land&gt;
 </code></pre>
-<p>and press <code>ENTER</code>. You will not be considered a <code>Visitor</code> in that land.</p>
+<p>and press <code>ENTER</code>. You will now be considered a <code>Visitor</code> in that land.</p>
 <h2 id="managing-roles-and-priveleges-in-your-land">Managing Roles and Priveleges in your Land</h2>
 <h3 id="default-roles">Default Roles</h3>
-<p>There are default roles that exist when you create your land.  These roles cannot be deleted. You can still <a href="#granting-priveleges-to-a-role">manage flags</a> for these roles (except the <code>Owner</code> role).</p>
+<p>There are default roles that exist when you create a land.  These roles cannot be deleted. You can still <a href="#granting-priveleges-to-a-role">manage flags</a> for these roles (except the <code>Owner</code> role).</p>
 <ul>
-<li><code>Owner</code> - The owner of land - this is the person who created the land, or the person who had land ownership transferred to them when the previous owner left the land. Flags <strong>cannot</strong> be edited for the owner role.</li>
+<li><code>Owner</code> - The owner of the land - this is the person who created the land, or the person who had land ownership transferred to them when the previous owner left the land. Only one member can have this role for a single land at any given time. Flags <strong>cannot</strong> be edited for the owner role. Members cannot be promoted to this role, unless the current owner <a href="../claiming_land/#leave-your-land">leaves the land</a></li>
 <li><code>Member</code> - Anyone who is <code>/trusted</code> in this land receives this role by default.</li>
-<li><code>Visitor</code> - Anyone who is not <code>/trusted</code> in your land.</li>
+<li><code>Visitor</code> - Anyone who is not <code>/trusted</code> in your land has this role.</li>
 </ul>
 <h3 id="adding-a-new-role">Adding a New Role</h3>
 <p>Open up the <code>/lands</code> menu, and go to the <code>Roles</code> section. Here you can create new roles and manage permissions for roles.</p>
 <p><img alt="" height="50%" src="../../img/roles.png" width="50%" /></p>
 <p>The position of the role from left to right is the direction players will be promoted/demoted. Press <code>SHIFT + RIGHT CLICK</code> and <code>SHIFT + LEFT CLICK</code> to reorder roles</p>
 <h3 id="adding-members-to-a-role">Adding Members to a Role</h3>
-<p>To add a member to a role go to the <code>Trusted Players</code> menu. <code>LEFT CLICK</code> a player's head to promote them, and <code>RIGHT CLICK</code> a player's head to demote them.</p>
+<p>To add a member to a role go to the <a href="#viewing-trusted-members">Trusted Players</a> menu. <code>LEFT CLICK</code> a player's head to promote them, and <code>RIGHT CLICK</code> a player's head to demote them.</p>
 <h3 id="editing-a-role">Editing a role</h3>
 <p>From the <code>Roles</code> menu, you can click on a role icon to go to the edit menu for the role. From here you can select the following different menu options:</p>
 <p><img alt="" height="50%" src="../../img/edit-role.png" width="50%" /></p>
