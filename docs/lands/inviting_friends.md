@@ -18,7 +18,7 @@ To trust a player in your land, type
 
 and hit `ENTER`. That player will now be invited to be a trusted member of your land.
 
-Players are only allowed to either belong to one land ***or*** own their own their own land. Players ***cannot*** belong to two different lands and they ***cannot*** own a land ***and*** belong to another land.  Before you can join another player's land, or they can join your land, the player joining must [leave any land they might currently belong to](#leaving-a-land-you-are-trusted-in), including a land they might own.
+Before you can join another player's land, or they can join your land, the player joining must [leave any land they might currently belong to](#leaving-a-land-you-are-trusted-in). If they own a land, they must [leave it and transfer ownerhip to a different player](claiming_land.md#leave-your-land), or [delete the land](claiming_land.md#deleting-your-land).
 
 ## Accepting an Invite to a Land
 
@@ -58,17 +58,17 @@ To leave a land you are currently trusted in, simply type
 /lands leave <name_of_land>
 ```
 
-and press `ENTER`. You will not be considered a `Visitor` in that land.
+and press `ENTER`. You will now be considered a `Visitor` in that land.
 
 ## Managing Roles and Priveleges in your Land
 
 ### Default Roles
 
-There are default roles that exist when you create your land.  These roles cannot be deleted. You can still [manage flags](#granting-priveleges-to-a-role) for these roles (except the `Owner` role).
+There are default roles that exist when you create a land.  These roles cannot be deleted. You can still [manage flags](#granting-priveleges-to-a-role) for these roles (except the `Owner` role).
 
-+ `Owner` - The owner of land - this is the person who created the land, or the person who had land ownership transferred to them when the previous owner left the land. Flags **cannot** be edited for the owner role.
++ `Owner` - The owner of the land - this is the person who created the land, or the person who had land ownership transferred to them when the previous owner left the land. Only one member can have this role for a single land at any given time. Flags **cannot** be edited for the owner role. Members cannot be promoted to this role, unless the current owner [leaves the land](claiming_land.md#leave-your-land)
 + `Member` - Anyone who is `/trusted` in this land receives this role by default.
-+ `Visitor` - Anyone who is not `/trusted` in your land.
++ `Visitor` - Anyone who is not `/trusted` in your land has this role.
 
 ### Adding a New Role
 
@@ -80,7 +80,7 @@ The position of the role from left to right is the direction players will be pro
 
 ### Adding Members to a Role
 
-To add a member to a role go to the `Trusted Players` menu. `LEFT CLICK` a player's head to promote them, and `RIGHT CLICK` a player's head to demote them.
+To add a member to a role go to the [Trusted Players](#viewing-trusted-members) menu. `LEFT CLICK` a player's head to promote them, and `RIGHT CLICK` a player's head to demote them.
 
 ### Editing a role
 
